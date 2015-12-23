@@ -121,7 +121,6 @@
 		EFACF28B1C27FC3F00894686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFACF2891C27FC3F00894686 /* LaunchScreen.storyboard */; };
 		EFACF2961C27FC3F00894686 /* kxkgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACF2951C27FC3F00894686 /* kxkgTests.swift */; };
 		EFACF2A11C27FC3F00894686 /* kxkgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACF2A01C27FC3F00894686 /* kxkgUITests.swift */; };
-		EFACF2C61C27FF2F00894686 /* baidu.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFACF2C01C27FF2F00894686 /* baidu.mm */; };
 		EFD4258B1C2A2D1900B6324B /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD425841C2A2D1900B6324B /* arrow@2x.png */; };
 		EFD4258C1C2A2D1900B6324B /* Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD425851C2A2D1900B6324B /* Refresh.swift */; };
 		EFD4258D1C2A2D1900B6324B /* RefreshBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD425861C2A2D1900B6324B /* RefreshBaseView.swift */; };
@@ -383,7 +382,6 @@
 		EFACF2A01C27FC3F00894686 /* kxkgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kxkgUITests.swift; sourceTree = "<group>"; };
 		EFACF2A21C27FC3F00894686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFACF2AE1C27FC6A00894686 /* kxkg-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "kxkg-Bridging-Header.h"; path = "../../kxkg-Bridging-Header.h"; sourceTree = "<group>"; };
-		EFACF2C01C27FF2F00894686 /* baidu.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = baidu.mm; sourceTree = "<group>"; };
 		EFD425841C2A2D1900B6324B /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		EFD425851C2A2D1900B6324B /* Refresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Refresh.swift; sourceTree = "<group>"; };
 		EFD425861C2A2D1900B6324B /* RefreshBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshBaseView.swift; sourceTree = "<group>"; };
@@ -838,7 +836,6 @@
 		EFACF2BF1C27FF2F00894686 /* Baidu */ = {
 			isa = PBXGroup;
 			children = (
-				EFACF2C01C27FF2F00894686 /* baidu.mm */,
 			);
 			path = Baidu;
 			sourceTree = "<group>";
@@ -1385,7 +1382,6 @@
 				EF69A54A1C2948D200855D26 /* UserAndSubSupplierEntity.swift in Sources */,
 				EF69A57F1C29524000855D26 /* DaiNavigationTransition+AccessObject.m in Sources */,
 				EFD4266C1C2A31C000B6324B /* IJReachability.swift in Sources */,
-				EFACF2C61C27FF2F00894686 /* baidu.mm in Sources */,
 				EFD426601C2A31C000B6324B /* CALayer+Cool.m in Sources */,
 				EF69A5631C294F4C00855D26 /* DateTransform.swift in Sources */,
 				EF69A5361C2948D200855D26 /* StoreEntity.swift in Sources */,
