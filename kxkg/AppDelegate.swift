@@ -7,15 +7,21 @@
 //
 
 import UIKit
-
+import ObjectMapper
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate,BMKGeneralDelegate{
+    
     var window: UIWindow?
-
+    var mapManager: BMKMapManager?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        mapManager = BMKMapManager()
+        // 如果要关注网络及授权验证事件，请设定generalDelegate参数
+        let ret = mapManager?.start("X6baUKgGwY2remC67lT8do2z", generalDelegate: nil)
+        if !ret! {
+            NSLog("打开地图") // 这里推荐使用 NSLog，当然使用 printl 也是可以的
+        }
         return true
     }
 
