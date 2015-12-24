@@ -24,7 +24,7 @@ extension UIColor {
     }
     /**
      sass
-        事实上
+        事实上sss
      - returns: as
      */
     class func borderColor1() ->UIColor {
