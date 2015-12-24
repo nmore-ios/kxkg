@@ -13,7 +13,7 @@ class ViewController: UIViewController,BMKMapViewDelegate,BMKLocationServiceDele
     var locService: BMKLocationService!
     //搜索结果
     var geoCode:BMKGeoCodeSearch!;
-    //用经纬度反编译成地址信息
+    //用经纬度反编译成地址信息。。
     var option:BMKReverseGeoCodeOption!;
     override func viewWillAppear(animated: Bool){
         super.viewWillAppear(animated);
