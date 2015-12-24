@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ObjectMapper
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate,BMKGeneralDelegate{
     
