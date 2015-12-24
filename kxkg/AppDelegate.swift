@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//dd
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate,BMKGeneralDelegate{
     
