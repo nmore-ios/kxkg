@@ -13,7 +13,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate,BMKGeneralDelegate{
     
     var window: UIWindow?
     var mapManager: BMKMapManager?
-    var lattttt:UIView!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
