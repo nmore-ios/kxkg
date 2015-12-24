@@ -22,6 +22,11 @@ extension UIColor {
     class func borderColor() ->UIColor {
         return UIColor(red:143/255, green:143/255, blue:143/255, alpha: 1.0);
     }
+    /**
+     sass
+     
+     - returns: as
+     */
     class func borderColor1() ->UIColor {
         return UIColor(red:211/255, green:209/255, blue: 209/255, alpha: 1)
     }
