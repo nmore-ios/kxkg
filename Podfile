@@ -16,3 +16,6 @@ use_frameworks!
 
 pod 'BaiduMapKit'
 use_frameworks!
+
+pod 'Siren'
+use_frameworks!

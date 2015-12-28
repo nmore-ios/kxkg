@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2F0564EDFE41453760641EFE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7966691D7CE5423C06DD6E0 /* Pods.framework */; };
+		EF13562A1C3100EF00E2BA65 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1356271C3100EF00E2BA65 /* SQLiteDB.swift */; };
+		EF13562B1C3100EF00E2BA65 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1356281C3100EF00E2BA65 /* SQLTable.swift */; };
+		EF13562C1C3100EF00E2BA65 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1356291C3100EF00E2BA65 /* String-Extras.swift */; };
+		EF13562E1C3100FB00E2BA65 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = EF13562D1C3100FB00E2BA65 /* data.db */; };
+		EF1356301C3101AD00E2BA65 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EF13562F1C3101AD00E2BA65 /* libsqlite3.tbd */; };
 		EF69A4A71C292E3F00855D26 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF69A4A61C292E3F00855D26 /* CoreLocation.framework */; };
 		EF69A4A91C292E5700855D26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF69A4A81C292E5700855D26 /* QuartzCore.framework */; };
 		EF69A4AB1C292E6700855D26 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF69A4AA1C292E6700855D26 /* OpenGLES.framework */; };
@@ -250,6 +255,11 @@
 		8EE3BDDAB7754BFF325CDB17 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		910747415004E989BE684245 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C7966691D7CE5423C06DD6E0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1356271C3100EF00E2BA65 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = "kxkg/Framework/SQLiteDB-master/SQLiteDB.swift"; sourceTree = SOURCE_ROOT; };
+		EF1356281C3100EF00E2BA65 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = "kxkg/Framework/SQLiteDB-master/SQLTable.swift"; sourceTree = SOURCE_ROOT; };
+		EF1356291C3100EF00E2BA65 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "kxkg/Framework/SQLiteDB-master/String-Extras.swift"; sourceTree = SOURCE_ROOT; };
+		EF13562D1C3100FB00E2BA65 /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = data.db; path = "kxkg/Framework/SQLiteDB-master/Examples/iOS/Resources/data.db"; sourceTree = SOURCE_ROOT; };
+		EF13562F1C3101AD00E2BA65 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		EF69A4A61C292E3F00855D26 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EF69A4A81C292E5700855D26 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EF69A4AA1C292E6700855D26 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -381,7 +391,7 @@
 		EFACF29C1C27FC3F00894686 /* kxkgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kxkgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFACF2A01C27FC3F00894686 /* kxkgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kxkgUITests.swift; sourceTree = "<group>"; };
 		EFACF2A21C27FC3F00894686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFACF2AE1C27FC6A00894686 /* kxkg-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "kxkg-Bridging-Header.h"; path = "../../kxkg-Bridging-Header.h"; sourceTree = "<group>"; };
+		EFACF2AE1C27FC6A00894686 /* kxkg-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kxkg-Bridging-Header.h"; sourceTree = "<group>"; };
 		EFD425841C2A2D1900B6324B /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		EFD425851C2A2D1900B6324B /* Refresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Refresh.swift; sourceTree = "<group>"; };
 		EFD425861C2A2D1900B6324B /* RefreshBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshBaseView.swift; sourceTree = "<group>"; };
@@ -508,6 +518,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1356301C3101AD00E2BA65 /* libsqlite3.tbd in Frameworks */,
 				EF69A4B71C292ECC00855D26 /* libstdc++.6.0.9.tbd in Frameworks */,
 				EF69A4B51C292EC000855D26 /* CoreTelephony.framework in Frameworks */,
 				EF69A4B31C292EA700855D26 /* libsqlite3.0.tbd in Frameworks */,
@@ -541,6 +552,7 @@
 		58016C30C69498B9BDFF7B1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF13562F1C3101AD00E2BA65 /* libsqlite3.tbd */,
 				EF69A4B61C292ECC00855D26 /* libstdc++.6.0.9.tbd */,
 				EF69A4B41C292EC000855D26 /* CoreTelephony.framework */,
 				EF69A4B21C292EA700855D26 /* libsqlite3.0.tbd */,
@@ -562,6 +574,17 @@
 				910747415004E989BE684245 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF1356261C3100E500E2BA65 /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				EF13562D1C3100FB00E2BA65 /* data.db */,
+				EF1356271C3100EF00E2BA65 /* SQLiteDB.swift */,
+				EF1356281C3100EF00E2BA65 /* SQLTable.swift */,
+				EF1356291C3100EF00E2BA65 /* String-Extras.swift */,
+			);
+			path = SQLiteDB;
 			sourceTree = "<group>";
 		};
 		EF69A54C1C294F4C00855D26 /* ObjectMapper */ = {
@@ -713,6 +736,7 @@
 				EFACF2871C27FC3F00894686 /* Assets.xcassets */,
 				EFACF2891C27FC3F00894686 /* LaunchScreen.storyboard */,
 				EFACF28C1C27FC3F00894686 /* Info.plist */,
+				EFACF2AE1C27FC6A00894686 /* kxkg-Bridging-Header.h */,
 			);
 			path = kxkg;
 			sourceTree = "<group>";
@@ -816,6 +840,7 @@
 		EFACF2BE1C27FF2F00894686 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				EF1356261C3100E500E2BA65 /* SQLiteDB */,
 				EFD4263A1C2A31BF00B6324B /* CBAutoScrollLabel */,
 				EFD4263D1C2A31BF00B6324B /* CoreLaunch */,
 				EFD4265B1C2A31C000B6324B /* DetectNetwork */,
@@ -931,17 +956,8 @@
 			isa = PBXGroup;
 			children = (
 				EFD4266E1C2A339100B6324B /* Color */,
-				EFACF2C41C27FF2F00894686 /* BridgeFile */,
 			);
 			path = Utility;
-			sourceTree = "<group>";
-		};
-		EFACF2C41C27FF2F00894686 /* BridgeFile */ = {
-			isa = PBXGroup;
-			children = (
-				EFACF2AE1C27FC6A00894686 /* kxkg-Bridging-Header.h */,
-			);
-			path = BridgeFile;
 			sourceTree = "<group>";
 		};
 		EFACF2C51C27FF2F00894686 /* View */ = {
@@ -1240,6 +1256,7 @@
 				EFACF28B1C27FC3F00894686 /* LaunchScreen.storyboard in Resources */,
 				EFD426031C2A311F00B6324B /* login_bg.png in Resources */,
 				EFD4260E1C2A311F00B6324B /* member_tell.png in Resources */,
+				EF13562E1C3100FB00E2BA65 /* data.db in Resources */,
 				EFD425FA1C2A311F00B6324B /* hy1.png in Resources */,
 				EFD425EF1C2A311F00B6324B /* checkmark@2x.png in Resources */,
 				EFD425F51C2A311F00B6324B /* edit_img.png in Resources */,
@@ -1371,6 +1388,7 @@
 				EF69A5491C2948D200855D26 /* TransferRecordEntity.swift in Sources */,
 				EFD426641C2A31C000B6324B /* CoreLaunchPro.m in Sources */,
 				EF69A5341C2948D200855D26 /* StoreAndGoodsEntity.swift in Sources */,
+				EF13562C1C3100EF00E2BA65 /* String-Extras.swift in Sources */,
 				EF69A5451C2948D200855D26 /* SupplierAndSubSupplierEntity.swift in Sources */,
 				EF69A5151C2948D200855D26 /* IndexRecommendedEntity.swift in Sources */,
 				EFD426651C2A31C000B6324B /* CYNavigationControllerDelegate.m in Sources */,
@@ -1431,6 +1449,7 @@
 				EF69A5051C2948D100855D26 /* AdMessgInfoEntity.swift in Sources */,
 				EF69A5651C294F4C00855D26 /* ISO8601DateTransform.swift in Sources */,
 				EF69A5221C2948D200855D26 /* OrderAndGoodsEntity.swift in Sources */,
+				EF13562A1C3100EF00E2BA65 /* SQLiteDB.swift in Sources */,
 				EF69A52D1C2948D200855D26 /* ShakeGoodsForStoreEntity.swift in Sources */,
 				EF69A5371C2948D200855D26 /* StoreLevelOfSupplierEntity.swift in Sources */,
 				EF69A5101C2948D200855D26 /* GoodsBasicInfoEntity.swift in Sources */,
@@ -1457,6 +1476,7 @@
 				EFD426701C2A339100B6324B /* Color.swift in Sources */,
 				EF69A5061C2948D100855D26 /* AdvertisingEntity.swift in Sources */,
 				EFD4266D1C2A31C000B6324B /* SwiftyJSON.swift in Sources */,
+				EF13562B1C3100EF00E2BA65 /* SQLTable.swift in Sources */,
 				EF69A5421C2948D200855D26 /* SubSupplierAndGoodEntity.swift in Sources */,
 				EF69A5601C294F4C00855D26 /* ToJSON.swift in Sources */,
 				EF69A5231C2948D200855D26 /* OrderInfoEntity.swift in Sources */,

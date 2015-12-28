@@ -29,10 +29,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Siren.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>192C8C2413796E089B0A00D1D53C6C09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3A78A495CAC95EE8ECF688A336E75DC5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,12 +52,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96913F130305C3FF004166FFE7CF22D8</key>
+		<key>5D606B068EB548696D1429D55C105922</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DD6A538C6C0C5C9AD1D49B1E51798798</key>
+		<key>CA7E109807227204FD675254910E22C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
