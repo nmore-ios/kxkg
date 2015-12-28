@@ -232,6 +232,7 @@
 		EFD4266C1C2A31C000B6324B /* IJReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4265C1C2A31C000B6324B /* IJReachability.swift */; };
 		EFD4266D1C2A31C000B6324B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4265E1C2A31C000B6324B /* SwiftyJSON.swift */; };
 		EFD426701C2A339100B6324B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4266F1C2A339100B6324B /* Color.swift */; };
+		EFE241A31C310DD100401B26 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2419D1C310DD000401B26 /* IndexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -511,6 +512,7 @@
 		EFD4265C1C2A31C000B6324B /* IJReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJReachability.swift; sourceTree = "<group>"; };
 		EFD4265E1C2A31C000B6324B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		EFD4266F1C2A339100B6324B /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		EFE2419D1C310DD000401B26 /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -724,12 +726,12 @@
 		EFACF27F1C27FC3E00894686 /* kxkg */ = {
 			isa = PBXGroup;
 			children = (
+				EFE2419A1C310DD000401B26 /* View */,
 				EFACF2BD1C27FF2F00894686 /* Entity */,
 				EFACF2BE1C27FF2F00894686 /* Framework */,
 				EFACF2C11C27FF2F00894686 /* Img */,
 				EFACF2C21C27FF2F00894686 /* Music */,
 				EFACF2C31C27FF2F00894686 /* Utility */,
-				EFACF2C51C27FF2F00894686 /* View */,
 				EFACF2801C27FC3E00894686 /* AppDelegate.swift */,
 				EFACF2821C27FC3E00894686 /* ViewController.swift */,
 				EFACF2841C27FC3E00894686 /* Main.storyboard */,
@@ -960,13 +962,6 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
-		EFACF2C51C27FF2F00894686 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		EFD425831C2A2D1900B6324B /* Refresh */ = {
 			isa = PBXGroup;
 			children = (
@@ -1101,6 +1096,70 @@
 				EFD4266F1C2A339100B6324B /* Color.swift */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		EFE2419A1C310DD000401B26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFE2419B1C310DD000401B26 /* ErnieView */,
+				EFE2419C1C310DD000401B26 /* IndexView */,
+				EFE2419E1C310DD000401B26 /* LoginView */,
+				EFE2419F1C310DD000401B26 /* OrderView */,
+				EFE241A01C310DD000401B26 /* PersonalCenterView */,
+				EFE241A11C310DD100401B26 /* RegisterView */,
+				EFE241A21C310DD100401B26 /* ShoppingCartView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFE2419B1C310DD000401B26 /* ErnieView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ErnieView;
+			sourceTree = "<group>";
+		};
+		EFE2419C1C310DD000401B26 /* IndexView */ = {
+			isa = PBXGroup;
+			children = (
+				EFE2419D1C310DD000401B26 /* IndexViewController.swift */,
+			);
+			path = IndexView;
+			sourceTree = "<group>";
+		};
+		EFE2419E1C310DD000401B26 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		EFE2419F1C310DD000401B26 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		EFE241A01C310DD000401B26 /* PersonalCenterView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PersonalCenterView;
+			sourceTree = "<group>";
+		};
+		EFE241A11C310DD100401B26 /* RegisterView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RegisterView;
+			sourceTree = "<group>";
+		};
+		EFE241A21C310DD100401B26 /* ShoppingCartView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShoppingCartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1390,6 +1449,7 @@
 				EF69A5341C2948D200855D26 /* StoreAndGoodsEntity.swift in Sources */,
 				EF13562C1C3100EF00E2BA65 /* String-Extras.swift in Sources */,
 				EF69A5451C2948D200855D26 /* SupplierAndSubSupplierEntity.swift in Sources */,
+				EFE241A31C310DD100401B26 /* IndexViewController.swift in Sources */,
 				EF69A5151C2948D200855D26 /* IndexRecommendedEntity.swift in Sources */,
 				EFD426651C2A31C000B6324B /* CYNavigationControllerDelegate.m in Sources */,
 				EF69A5321C2948D200855D26 /* StoreAddAndToRecordEntity.swift in Sources */,
