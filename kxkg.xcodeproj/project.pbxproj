@@ -233,6 +233,7 @@
 		EFD4266D1C2A31C000B6324B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4265E1C2A31C000B6324B /* SwiftyJSON.swift */; };
 		EFD426701C2A339100B6324B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4266F1C2A339100B6324B /* Color.swift */; };
 		EFE241A31C310DD100401B26 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2419D1C310DD000401B26 /* IndexViewController.swift */; };
+		EFE76F0A1C325651003FA3EA /* baidu.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFE76F091C325651003FA3EA /* baidu.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -513,6 +514,7 @@
 		EFD4265E1C2A31C000B6324B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		EFD4266F1C2A339100B6324B /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		EFE2419D1C310DD000401B26 /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		EFE76F091C325651003FA3EA /* baidu.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = baidu.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -863,6 +865,7 @@
 		EFACF2BF1C27FF2F00894686 /* Baidu */ = {
 			isa = PBXGroup;
 			children = (
+				EFE76F091C325651003FA3EA /* baidu.mm */,
 			);
 			path = Baidu;
 			sourceTree = "<group>";
@@ -1445,6 +1448,7 @@
 				EF69A53E1C2948D200855D26 /* SubStationSetShakeCategoryEntity.swift in Sources */,
 				EF69A5211C2948D200855D26 /* MobileVersionUpdateEntity.swift in Sources */,
 				EF69A5491C2948D200855D26 /* TransferRecordEntity.swift in Sources */,
+				EFE76F0A1C325651003FA3EA /* baidu.mm in Sources */,
 				EFD426641C2A31C000B6324B /* CoreLaunchPro.m in Sources */,
 				EF69A5341C2948D200855D26 /* StoreAndGoodsEntity.swift in Sources */,
 				EF13562C1C3100EF00E2BA65 /* String-Extras.swift in Sources */,

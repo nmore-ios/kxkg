@@ -14,7 +14,7 @@ use_frameworks!
 pod 'ObjectMapper', '~> 1.0'
 use_frameworks!
 
-pod 'BaiduMapKit'
+pod 'BaiduMapKit' #百度地图SDK
 use_frameworks!
 
 pod 'Siren'
