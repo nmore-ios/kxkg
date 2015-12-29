@@ -7,8 +7,6 @@
 //
 
 import XCTest
-@testable import kxkg
-
 class kxkgTests: XCTestCase {
     
     override func setUp() {
