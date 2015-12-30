@@ -12,7 +12,10 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate,BMKGeneralDelegate{
     
     var window: UIWindow?
+    /// 百度地图
     var mapManager: BMKMapManager?
+    /// 接收自定义tabBar
+    var tabBar:UITabBarController?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -20,8 +23,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate,BMKGeneralDelegate{
         // 如果要关注网络及授权验证事件，请设定generalDelegate参数
         let ret = mapManager?.start("X6baUKgGwY2remC67lT8do2z", generalDelegate: nil)
         if !ret! {
-            NSLog("打开地图") // 这里推荐使用 NSLog，当然使用 printl 也是可以的
+            NSLog("打开地图") // 这里推荐使用 NSLog，当然使用 print 也是可以的
         }
+        //在程序加载赋值
+        tabBar=TabBarViewController()
+        //设置加载根视图
+        window?.rootViewController=tabBar
         return true
     }
 
