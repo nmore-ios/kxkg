@@ -22,6 +22,8 @@
 #import "UIImage+GIF.h"
 ///引入  lab滚动效果
 #import "CBAutoScrollLabel.h"
-///引入   数据库操作库
+///引入  数据库操作库
 #import "sqlite3.h"
 #import <time.h>
+///引入  幻灯片
+#import "ZWAdView.h"

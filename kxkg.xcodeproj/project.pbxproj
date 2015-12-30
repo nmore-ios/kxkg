@@ -13,6 +13,8 @@
 		EF13562C1C3100EF00E2BA65 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1356291C3100EF00E2BA65 /* String-Extras.swift */; };
 		EF13562E1C3100FB00E2BA65 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = EF13562D1C3100FB00E2BA65 /* data.db */; };
 		EF1356301C3101AD00E2BA65 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EF13562F1C3101AD00E2BA65 /* libsqlite3.tbd */; };
+		EF34061E1C33D98700CCA902 /* AddressInformationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF34061D1C33D98700CCA902 /* AddressInformationEntity.swift */; };
+		EF3406221C33DEE500CCA902 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3406211C33DEE500CCA902 /* Record.swift */; };
 		EF69A4A71C292E3F00855D26 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF69A4A61C292E3F00855D26 /* CoreLocation.framework */; };
 		EF69A4A91C292E5700855D26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF69A4A81C292E5700855D26 /* QuartzCore.framework */; };
 		EF69A4AB1C292E6700855D26 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF69A4AA1C292E6700855D26 /* OpenGLES.framework */; };
@@ -234,6 +236,12 @@
 		EFDB93101C3374D200A633B3 /* ErnieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB930F1C3374D200A633B3 /* ErnieViewController.swift */; };
 		EFDB93131C33758000A633B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB93121C33758000A633B3 /* LoginViewController.swift */; };
 		EFDB93161C3375DA00A633B3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB93151C3375DA00A633B3 /* RegisterViewController.swift */; };
+		EFDB93191C337B6900A633B3 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB93181C337B6900A633B3 /* Url.swift */; };
+		EFDB931E1C3383FE00A633B3 /* ZWAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB931D1C3383FE00A633B3 /* ZWAdView.m */; };
+		EFDB93211C33AB4A00A633B3 /* def_fl.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDB931F1C33AB4A00A633B3 /* def_fl.png */; };
+		EFDB93221C33AB4A00A633B3 /* def_nil.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDB93201C33AB4A00A633B3 /* def_nil.png */; };
+		EFDB93251C33B36100A633B3 /* D3Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB93241C33B36100A633B3 /* D3Notice.swift */; };
+		EFDB93281C33B88100A633B3 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB93271C33B88100A633B3 /* FirstPageViewController.swift */; };
 		EFE241A31C310DD100401B26 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2419D1C310DD000401B26 /* IndexViewController.swift */; };
 		EFE76F0A1C325651003FA3EA /* baidu.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFE76F091C325651003FA3EA /* baidu.mm */; };
 /* End PBXBuildFile section */
@@ -264,6 +272,8 @@
 		EF1356291C3100EF00E2BA65 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "kxkg/Framework/SQLiteDB-master/String-Extras.swift"; sourceTree = SOURCE_ROOT; };
 		EF13562D1C3100FB00E2BA65 /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = data.db; path = "kxkg/Framework/SQLiteDB-master/Examples/iOS/Resources/data.db"; sourceTree = SOURCE_ROOT; };
 		EF13562F1C3101AD00E2BA65 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EF34061D1C33D98700CCA902 /* AddressInformationEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressInformationEntity.swift; sourceTree = "<group>"; };
+		EF3406211C33DEE500CCA902 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		EF69A4A61C292E3F00855D26 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EF69A4A81C292E5700855D26 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EF69A4AA1C292E6700855D26 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -517,6 +527,13 @@
 		EFDB930F1C3374D200A633B3 /* ErnieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErnieViewController.swift; sourceTree = "<group>"; };
 		EFDB93121C33758000A633B3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EFDB93151C3375DA00A633B3 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EFDB93181C337B6900A633B3 /* Url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		EFDB931C1C3383FE00A633B3 /* ZWAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAdView.h; sourceTree = "<group>"; };
+		EFDB931D1C3383FE00A633B3 /* ZWAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAdView.m; sourceTree = "<group>"; };
+		EFDB931F1C33AB4A00A633B3 /* def_fl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = def_fl.png; sourceTree = "<group>"; };
+		EFDB93201C33AB4A00A633B3 /* def_nil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = def_nil.png; sourceTree = "<group>"; };
+		EFDB93241C33B36100A633B3 /* D3Notice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D3Notice.swift; sourceTree = "<group>"; };
+		EFDB93271C33B88100A633B3 /* FirstPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
 		EFE2419D1C310DD000401B26 /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
 		EFE76F091C325651003FA3EA /* baidu.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = baidu.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -593,6 +610,14 @@
 				EF1356291C3100EF00E2BA65 /* String-Extras.swift */,
 			);
 			path = SQLiteDB;
+			sourceTree = "<group>";
+		};
+		EF3406201C33DED700CCA902 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				EF3406211C33DEE500CCA902 /* Record.swift */,
+			);
+			path = Record;
 			sourceTree = "<group>";
 		};
 		EF69A54C1C294F4C00855D26 /* ObjectMapper */ = {
@@ -841,6 +866,7 @@
 				EF69A5011C2948D100855D26 /* TransferRecordEntity.swift */,
 				EF69A5021C2948D100855D26 /* UserAndSubSupplierEntity.swift */,
 				EF69A5031C2948D100855D26 /* UserEntity.swift */,
+				EF34061D1C33D98700CCA902 /* AddressInformationEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -848,6 +874,7 @@
 		EFACF2BE1C27FF2F00894686 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				EFDB931B1C3383FE00A633B3 /* ZWADScrollview */,
 				EF1356261C3100E500E2BA65 /* SQLiteDB */,
 				EFD4263A1C2A31BF00B6324B /* CBAutoScrollLabel */,
 				EFD4263D1C2A31BF00B6324B /* CoreLaunch */,
@@ -877,6 +904,8 @@
 		EFACF2C11C27FF2F00894686 /* Img */ = {
 			isa = PBXGroup;
 			children = (
+				EFDB931F1C33AB4A00A633B3 /* def_fl.png */,
+				EFDB93201C33AB4A00A633B3 /* def_nil.png */,
 				EFD425931C2A311F00B6324B /* bar.png */,
 				EFD425941C2A311F00B6324B /* btn.png */,
 				EFD425951C2A311F00B6324B /* cart.png */,
@@ -964,6 +993,9 @@
 		EFACF2C31C27FF2F00894686 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				EF3406201C33DED700CCA902 /* Record */,
+				EFDB93231C33B36100A633B3 /* D3Notice */,
+				EFDB93171C337B5B00A633B3 /* Url */,
 				EFDB92FF1C33704600A633B3 /* WideScreenHigh */,
 				EFD4266E1C2A339100B6324B /* Color */,
 			);
@@ -1164,6 +1196,39 @@
 			path = RegisterView;
 			sourceTree = "<group>";
 		};
+		EFDB93171C337B5B00A633B3 /* Url */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB93181C337B6900A633B3 /* Url.swift */,
+			);
+			path = Url;
+			sourceTree = "<group>";
+		};
+		EFDB931B1C3383FE00A633B3 /* ZWADScrollview */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB931C1C3383FE00A633B3 /* ZWAdView.h */,
+				EFDB931D1C3383FE00A633B3 /* ZWAdView.m */,
+			);
+			path = ZWADScrollview;
+			sourceTree = "<group>";
+		};
+		EFDB93231C33B36100A633B3 /* D3Notice */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB93241C33B36100A633B3 /* D3Notice.swift */,
+			);
+			path = D3Notice;
+			sourceTree = "<group>";
+		};
+		EFDB93261C33B86800A633B3 /* FirstPageView */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB93271C33B88100A633B3 /* FirstPageViewController.swift */,
+			);
+			path = FirstPageView;
+			sourceTree = "<group>";
+		};
 		EFE2419A1C310DD000401B26 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -1182,6 +1247,7 @@
 		EFE2419C1C310DD000401B26 /* IndexView */ = {
 			isa = PBXGroup;
 			children = (
+				EFDB93261C33B86800A633B3 /* FirstPageView */,
 				EFE2419D1C310DD000401B26 /* IndexViewController.swift */,
 			);
 			path = IndexView;
@@ -1306,6 +1372,7 @@
 				EFD425F61C2A311F00B6324B /* exchange.png in Resources */,
 				EFD426111C2A311F00B6324B /* new_logo.png in Resources */,
 				EFD425E81C2A311F00B6324B /* btn.png in Resources */,
+				EFDB93221C33AB4A00A633B3 /* def_nil.png in Resources */,
 				EFD426081C2A311F00B6324B /* member_cart.png in Resources */,
 				EFD426211C2A311F00B6324B /* select_03.png in Resources */,
 				EFD426261C2A311F00B6324B /* SSS.gif in Resources */,
@@ -1329,6 +1396,7 @@
 				EFD426041C2A311F00B6324B /* login_name.png in Resources */,
 				EFD426141C2A311F00B6324B /* no_gods.png in Resources */,
 				EFD4260A1C2A311F00B6324B /* member_clear.png in Resources */,
+				EFDB93211C33AB4A00A633B3 /* def_fl.png in Resources */,
 				EFD425EB1C2A311F00B6324B /* category_top.png in Resources */,
 				EFD426351C2A311F00B6324B /* warning.png in Resources */,
 				EFD4260B1C2A311F00B6324B /* member_hmd.png in Resources */,
@@ -1460,6 +1528,7 @@
 				EF69A53D1C2948D200855D26 /* SubstationEntity.swift in Sources */,
 				EF69A50B1C2948D100855D26 /* DefaultAllocationSubSupplierEntity.swift in Sources */,
 				EF69A5821C29524000855D26 /* DaiNavigationTransitionObjects.m in Sources */,
+				EFDB93251C33B36100A633B3 /* D3Notice.swift in Sources */,
 				EFDB93011C33705B00A633B3 /* WideScreenHigh.swift in Sources */,
 				EFD4258C1C2A2D1900B6324B /* Refresh.swift in Sources */,
 				EF69A53E1C2948D200855D26 /* SubStationSetShakeCategoryEntity.swift in Sources */,
@@ -1480,6 +1549,7 @@
 				EF69A5071C2948D100855D26 /* AdviceEntity.swift in Sources */,
 				EF69A54A1C2948D200855D26 /* UserAndSubSupplierEntity.swift in Sources */,
 				EF69A57F1C29524000855D26 /* DaiNavigationTransition+AccessObject.m in Sources */,
+				EF34061E1C33D98700CCA902 /* AddressInformationEntity.swift in Sources */,
 				EFD4266C1C2A31C000B6324B /* IJReachability.swift in Sources */,
 				EFD426601C2A31C000B6324B /* CALayer+Cool.m in Sources */,
 				EF69A5631C294F4C00855D26 /* DateTransform.swift in Sources */,
@@ -1543,11 +1613,13 @@
 				EF69A5161C2948D200855D26 /* IntetralAndRecordEntity.swift in Sources */,
 				EFD425901C2A2D1900B6324B /* RefreshHeaderView.swift in Sources */,
 				EFD426671C2A31C000B6324B /* CYPortalTransitionContext.m in Sources */,
+				EFDB93191C337B6900A633B3 /* Url.swift in Sources */,
 				EF69A5681C294F4C00855D26 /* URLTransform.swift in Sources */,
 				EFD4266B1C2A31C000B6324B /* ProVC.m in Sources */,
 				EF69A50C1C2948D100855D26 /* DictionaryIcoEntity.swift in Sources */,
 				EF69A52C1C2948D200855D26 /* SearchRecordEntity.swift in Sources */,
 				EF69A52F1C2948D200855D26 /* ShakeOtherInfoEntity.swift in Sources */,
+				EF3406221C33DEE500CCA902 /* Record.swift in Sources */,
 				EF69A5331C2948D200855D26 /* StoreAndGoods.swift in Sources */,
 				EFDB93041C33716C00A633B3 /* TabBarViewController.swift in Sources */,
 				EFD426691C2A31C000B6324B /* UINavigationController+PortalTransition.m in Sources */,
@@ -1555,6 +1627,7 @@
 				EF69A51C1C2948D200855D26 /* MemberOrderAdvertisingEntity.swift in Sources */,
 				EF69A55E1C294F4C00855D26 /* Mapper.swift in Sources */,
 				EF69A5131C2948D200855D26 /* IndexGoodsCategoryEntity.swift in Sources */,
+				EFDB93281C33B88100A633B3 /* FirstPageViewController.swift in Sources */,
 				EF69A5311C2948D200855D26 /* ShoppingCarEntity.swift in Sources */,
 				EF69A5171C2948D200855D26 /* JobNumberForStoreEntity.swift in Sources */,
 				EF69A51F1C2948D200855D26 /* messageEntity.swift in Sources */,
@@ -1566,6 +1639,7 @@
 				EF13562B1C3100EF00E2BA65 /* SQLTable.swift in Sources */,
 				EF69A5421C2948D200855D26 /* SubSupplierAndGoodEntity.swift in Sources */,
 				EF69A5601C294F4C00855D26 /* ToJSON.swift in Sources */,
+				EFDB931E1C3383FE00A633B3 /* ZWAdView.m in Sources */,
 				EF69A5231C2948D200855D26 /* OrderInfoEntity.swift in Sources */,
 				EF69A53A1C2948D200855D26 /* StoreShakeRecordEntity.swift in Sources */,
 				EF69A5121C2948D200855D26 /* GoodsImagesEntity.swift in Sources */,
@@ -1726,7 +1800,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = kxkg/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nmore.kxkg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1744,7 +1818,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = kxkg/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nmore.kxkg;
 				PRODUCT_NAME = "$(TARGET_NAME)";

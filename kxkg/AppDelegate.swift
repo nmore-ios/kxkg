@@ -25,10 +25,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate,BMKGeneralDelegate{
         if !ret! {
             NSLog("打开地图") // 这里推荐使用 NSLog，当然使用 print 也是可以的
         }
-        //在程序加载赋值
-        tabBar=TabBarViewController()
+        let vc=FirstPageViewController()
         //设置加载根视图
-        window?.rootViewController=tabBar
+        window?.rootViewController=vc
         return true
     }
 
